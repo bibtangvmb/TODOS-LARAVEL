@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('kategoris_', function (Blueprint $table) {
+        Schema::create('kategoris', function (Blueprint $table) {
             $table->string('kode_kategori')->primary();
             $table->text('nama')->nullable();
             $table->text('ket')->nullable();            
@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('kategoris_');
+        Schema::dropIfExists('kategoris');
     }
 };
