@@ -27,8 +27,8 @@
                         @foreach ($data as $row)
                             <tr>
                                 <th scope="row">{{$row->kode_kategori}}</th>
-                               <td> {{ $row->$nama }}</td>
-                               <td> {{ $row->$ket }}</td>
+                               <td> {{ $row->nama }}</td>
+                               <td> {{ $row->ket }}</td>
                                <td>
                                     <a href="/kategori/{{$row->kode_kategori}}/edit">
                                         <button type="button" class="btn btn-primary">Edit</button>

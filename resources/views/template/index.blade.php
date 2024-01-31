@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     @include('template.navbar')
@@ -15,6 +15,6 @@
     @include('template.footer')
     
 
-    <script src="bootstrap/js/bootstrap.bundle.js">></script>
+    <script src="/bootstrap/js/bootstrap.bundle.js">></script>
 </body>
 </html>

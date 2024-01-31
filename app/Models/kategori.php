@@ -11,9 +11,9 @@ class Kategori Extends Model
 
     protected $table = 'kategoris';
 
-    protected $primarykey = 'kode_kategori';
+    protected $primaryKey = 'kode_kategori';
 
-    protected $keytype = 'string';
+    protected $keyType = 'string';
 
     protected $fillable = [
         'kode_kategori',

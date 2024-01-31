@@ -18,7 +18,7 @@ Route::get('/kategori', [KategoriController::class, 'index']);
 Route::get('/kategori/add', [KategoriController::class, 'add']);
 Route::get('/kategori/{id}/edit', [KategoriController::class, 'edit']);
 Route::get('/kategori/{id}/delete', [KategoriController::class, 'delete']);
-Route::get('/kategori/{id}/save', [KategoriController::class, 'save']);
+Route::post('/kategori/save', [KategoriController::class, 'save']);
 
 
 
